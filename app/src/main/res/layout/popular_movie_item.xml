@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/backgrop_image"
+        android:src="@drawable/ic_video"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"/>
+
+    <ImageView
+        android:id="@+id/play_button"
+        android:src="@drawable/ic_video_play"
+        android:background="@drawable/grey_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/poster_image_height"
+        android:visibility="gone"
+        android:scaleType="center"
+        />
+    
+    <TextView
+        android:id="@+id/popular_movie_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_gravity="bottom"
+        android:layout_margin="12dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:visibility="gone"
+        android:text="Fifty shades of Grey"/>
+    
+    
+    
+
+
+</FrameLayout>
